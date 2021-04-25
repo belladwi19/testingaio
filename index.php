@@ -38,6 +38,7 @@
       <h1 class="logo"><a href="index.html">AIO</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <!-- ganti extension .php -->
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
