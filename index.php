@@ -52,7 +52,7 @@
         </ul>
       </nav><!-- .nav-menu -->
 
-      <a href="admin/index.php" class="get-started-btn scrollto">Login Admin</a>
+      <a href="admin/index.html" class="get-started-btn scrollto">Login Admin</a>
 
     </div>
   </header><!-- End Header -->
