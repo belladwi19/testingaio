@@ -8,9 +8,9 @@
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="{{ asset('plugins/fontawesome-free/css/all.min.css') }}">
+  <link rel="stylesheet" href="/plugins/fontawesome-free/css/all.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="{{ asset('admin/css/adminlte.min.css') }}">
+  <link rel="stylesheet" href="/admin/css/adminlte.min.css">
 </head>
 <body class="hold-transition sidebar-mini">
 <!-- Site wrapper -->
@@ -67,7 +67,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="{{ asset('admin/img/user1-128x128.jpg') }}" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+              <img src="/admin/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   Brad Diesel
@@ -83,7 +83,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="{{ asset('admin/img/user8-128x128.jpg') }}" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <img src="/admin/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   John Pierce
@@ -99,7 +99,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="{{ asset('admin/img/user3-128x128.jpg') }}" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <img src="/admin/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   Nora Silvester
@@ -133,7 +133,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="/admin/index" class="brand-link">
-      <img src="{{ asset('admin/img/AdminLTELogo.png') }}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <img src="/admin/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
       <span class="brand-text font-weight-light">All In One</span>
     </a>
 
@@ -142,7 +142,7 @@
       <!-- Sidebar user (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="{{ asset('admin/img/user2-160x160.jpg') }}" class="img-circle elevation-2" alt="User Image">
+          <img src="/admin/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="#" class="d-block">Admin AIO</a>
@@ -288,16 +288,16 @@
                       <td>
                           <ul class="list-inline">
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar.png">
                               </li>
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar2.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar2.png">
                               </li>
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar3.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar3.png">
                               </li>
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar4.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar4.png">
                               </li>
                           </ul>
                       </td>
@@ -347,10 +347,10 @@
                       <td>
                           <ul class="list-inline">
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar.png">
                               </li>
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar2.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar2.png">
                               </li>
                           </ul>
                       </td>
@@ -400,13 +400,13 @@
                       <td>
                           <ul class="list-inline">
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar.png">
                               </li>
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar2.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar2.png">
                               </li>
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar3.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar3.png">
                               </li>
                           </ul>
                       </td>
@@ -456,16 +456,16 @@
                       <td>
                           <ul class="list-inline">
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar.png">
                               </li>
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar2.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar2.png">
                               </li>
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar3.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar3.png">
                               </li>
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar4.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar4.png">
                               </li>
                           </ul>
                       </td>
@@ -515,13 +515,13 @@
                       <td>
                           <ul class="list-inline">
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar.png">
                               </li>
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar4.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar4.png">
                               </li>
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar5.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar5.png">
                               </li>
                           </ul>
                       </td>
@@ -571,16 +571,16 @@
                       <td>
                           <ul class="list-inline">
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar.png">
                               </li>
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar2.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar2.png">
                               </li>
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar3.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar3.png">
                               </li>
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar4.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar4.png">
                               </li>
                           </ul>
                       </td>
@@ -630,10 +630,10 @@
                       <td>
                           <ul class="list-inline">
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar4.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar4.png">
                               </li>
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar5.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar5.png">
                               </li>
                           </ul>
                       </td>
@@ -683,13 +683,13 @@
                       <td>
                           <ul class="list-inline">
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar.png">
                               </li>
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar3.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar3.png">
                               </li>
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar4.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar4.png">
                               </li>
                           </ul>
                       </td>
@@ -739,16 +739,16 @@
                       <td>
                           <ul class="list-inline">
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar.png">
                               </li>
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar3.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar3.png">
                               </li>
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar4.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar4.png">
                               </li>
                               <li class="list-inline-item">
-                                  <img alt="Avatar" class="table-avatar" src="{{ asset('admin/img/avatar5.png') }}">
+                                  <img alt="Avatar" class="table-avatar" src="/admin/img/avatar5.png">
                               </li>
                           </ul>
                       </td>
@@ -810,12 +810,12 @@
 <!-- ./wrapper -->
 
 <!-- jQuery -->
-<script src="{{ asset('plugins/jquery/jquery.min.js') }}"></script>
+<script src="/plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
-<script src="{{ asset('plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<script src="/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
-<script src="{{ asset('admin/js/adminlte.min.js') }}"></script>
+<script src="/admin/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="{{ asset('admin/js/demo.js') }}"></script>
+<script src="/admin/js/demo.js"></script>
 </body>
 </html>

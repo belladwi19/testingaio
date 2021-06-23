@@ -10,9 +10,9 @@
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="{{ asset('plugins/fontawesome-free/css/all.min.css') }}">
+  <link rel="stylesheet" href="/plugins/fontawesome-free/css/all.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="{{ asset('admin/css/adminlte.min.css') }}">
+  <link rel="stylesheet" href="/admin/css/adminlte.min.css">
 </head>
 
 <body class="hold-transition sidebar-mini">
@@ -70,7 +70,7 @@
             <a href="#" class="dropdown-item">
               <!-- Message Start -->
               <div class="media">
-                <img src="{{ asset('admin/img/user1-128x128.jpg') }}" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+                <img src="/admin/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
                 <div class="media-body">
                   <h3 class="dropdown-item-title">
                     Brad Diesel
@@ -86,7 +86,7 @@
             <a href="#" class="dropdown-item">
               <!-- Message Start -->
               <div class="media">
-                <img src="{{ asset('admin/img/user8-128x128.jpg') }}" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                <img src="/admin/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
                 <div class="media-body">
                   <h3 class="dropdown-item-title">
                     John Pierce
@@ -102,7 +102,7 @@
             <a href="#" class="dropdown-item">
               <!-- Message Start -->
               <div class="media">
-                <img src="{{ asset('admin/img/user3-128x128.jpg') }}" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                <img src="/admin/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
                 <div class="media-body">
                   <h3 class="dropdown-item-title">
                     Nora Silvester
@@ -136,7 +136,7 @@
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
       <!-- Brand Logo -->
       <a href="../../index3.html" class="brand-link">
-        <img src="{{ asset('admin/img/AdminLTELogo.png') }}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+        <img src="/admin/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
           style="opacity: .8">
         <span class="brand-text font-weight-light">AdminLTE 3</span>
       </a>
@@ -146,7 +146,7 @@
         <!-- Sidebar user (optional) -->
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
           <div class="image">
-            <img src="{{ asset('admin/img/user2-160x160.jpg') }}" class="img-circle elevation-2" alt="User Image">
+            <img src="/admin/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
           </div>
           <div class="info">
             <a href="#" class="d-block">Alexander Pierce</a>
@@ -298,7 +298,7 @@
                     <h4>Recent Activity</h4>
                     <div class="post">
                       <div class="user-block">
-                        <img class="img-circle img-bordered-sm" src="{{ asset('admin/img/user1-128x128.jpg') }}" alt="user image">
+                        <img class="img-circle img-bordered-sm" src="/admin/img/user1-128x128.jpg" alt="user image">
                         <span class="username">
                           <a href="#">Jonathan Burke Jr.</a>
                         </span>
@@ -318,7 +318,7 @@
 
                     <div class="post clearfix">
                       <div class="user-block">
-                        <img class="img-circle img-bordered-sm" src="{{ asset('admin/img/user7-128x128.jpg') }}" alt="User Image">
+                        <img class="img-circle img-bordered-sm" src="/admin/img/user7-128x128.jpg" alt="User Image">
                         <span class="username">
                           <a href="#">Sarah Ross</a>
                         </span>
@@ -337,7 +337,7 @@
 
                     <div class="post">
                       <div class="user-block">
-                        <img class="img-circle img-bordered-sm" src="{{ asset('admin/img/user1-128x128.jpg') }}" alt="user image">
+                        <img class="img-circle img-bordered-sm" src="/admin/img/user1-128x128.jpg" alt="user image">
                         <span class="username">
                           <a href="#">Jonathan Burke Jr.</a>
                         </span>
@@ -386,7 +386,7 @@
                       Email-from-flatbal.mln</a>
                   </li>
                   <li>
-                    <a href="" class="btn-link text-secondary"><i class="far fa-fw fa-image "></i> Logo.png') }}</a>
+                    <a href="" class="btn-link text-secondary"><i class="far fa-fw fa-image "></i> Logo.png</a>
                   </li>
                   <li>
                     <a href="" class="btn-link text-secondary"><i class="far fa-fw fa-file-word"></i>
@@ -425,13 +425,13 @@
   <!-- ./wrapper -->
 
   <!-- jQuery -->
-  <script src="{{ asset('plugins/jquery/jquery.min.js') }}"></script>
+  <script src="/plugins/jquery/jquery.min.js"></script>
   <!-- Bootstrap 4 -->
-  <script src="{{ asset('plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
   <!-- AdminLTE App -->
-  <script src="{{ asset('admin/js/adminlte.min.js') }}"></script>
+  <script src="/admin/js/adminlte.min.js"></script>
   <!-- AdminLTE for demo purposes -->
-  <script src="{{ asset('admin/js/demo.js') }}"></script>
+  <script src="/admin/js/demo.js"></script>
 </body>
 
 </html>
