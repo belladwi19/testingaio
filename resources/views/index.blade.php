@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="{{ asset('img/faviconA.png') }}" rel="icon">
-  <link href="{{ asset('img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+  <link href="/img/faviconA.png" rel="icon">
+  <link href="/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -118,7 +118,7 @@
         <div class="row">
 
           <div class="col-lg-6 video-box align-self-baseline" data-aos="zoom-in" data-aos-delay="100">
-            <img src="{{ asset('img/about.jpg') }}" class="img-fluid" alt="">
+            <img src="/img/about.jpg" class="img-fluid" alt="">
             <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
           </div>
 
@@ -150,7 +150,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="card">
-              <img src="{{ asset('img/about-boxes-1.jpg') }}" class="card-img-top" alt="...">
+              <img src="/img/about-boxes-1.jpg" class="card-img-top" alt="...">
               <div class="card-icon">
                 <i class="ri-brush-4-line"></i>
               </div>
@@ -166,7 +166,7 @@
           </div>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="card">
-              <img src="{{ asset('img/about-boxes-2.jpg') }}" class="card-img-top" alt="...">
+              <img src="/img/about-boxes-2.jpg" class="card-img-top" alt="...">
               <div class="card-icon">
                 <i class="ri-calendar-check-line"></i>
               </div>
@@ -182,7 +182,7 @@
           </div>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
             <div class="card">
-              <img src="{{ asset('img/about-boxes-3.jpg') }}" class="card-img-top" alt="...">
+              <img src="img/about-boxes-3.jpg" class="card-img-top" alt="...">
               <div class="card-icon">
                 <i class="ri-movie-2-line"></i>
               </div>
@@ -208,27 +208,27 @@
         <div class="row">
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{ asset('img/clients/client-1.png') }}" class="img-fluid" alt="">
+            <img src="/img/clients/client-1.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{ asset('img/clients/client-2.png') }}" class="img-fluid" alt="">
+            <img src="/img/clients/client-2.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{ asset('img/clients/client-3.png') }}" class="img-fluid" alt="">
+            <img src="/img/clients/client-3.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{ asset('img/clients/client-4.png') }}" class="img-fluid" alt="">
+            <img src="/img/clients/client-4.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{ asset('img/clients/client-5.png') }}" class="img-fluid" alt="">
+            <img src="/img/clients/client-5.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{ asset('img/clients/client-6.png') }}" class="img-fluid" alt="">
+            <img src="/img/clients/client-6.png" class="img-fluid" alt="">
           </div>
 
         </div>
@@ -300,7 +300,7 @@
         <div class="owl-carousel testimonials-carousel">
 
           <div class="testimonial-item">
-            <img src="{{ asset('img/testimonials/motivate1.png') }}" class="testimonial-img" alt="">
+            <img src="/img/testimonials/motivate1.png" class="testimonial-img" alt="">
             <h3>Bill Gates</h3>
             <h4>Founder Microsoft</h4>
             <p>
@@ -311,7 +311,7 @@
           </div>
 
           <div class="testimonial-item">
-            <img src="{{ asset('img/testimonials/motivate2.png') }}" class="testimonial-img" alt="">
+            <img src="/img/testimonials/motivate2.png" class="testimonial-img" alt="">
             <h3>Milton Glaser</h3>
             <h4>Designer</h4>
             <p>
@@ -348,7 +348,7 @@
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="{{ asset('img/portfolio/portfolio-4.jpg') }}" class="img-fluid" alt="">
+            <img src="/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Product 1</h4>
               <!-- <a href="{{ asset('img/portfolio/portfolio-4.jpg') }}" data-gall="portfolioGallery" class="venobox preview-link" title="Card 2"><i class="bx bx-plus"></i></a> -->
@@ -357,7 +357,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="{{ asset('img/portfolio/portfolio-7.jpg') }}" class="img-fluid" alt="">
+            <img src="/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Product 2</h4>
               <a href="{{route('portfolio.index')}}" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
@@ -365,7 +365,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="{{ asset('img/portfolio/portfolio-8.jpg') }}" class="img-fluid" alt="">
+            <img src="/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Product 3</h4>
               <a href="{{route('portfolio.index')}}" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
@@ -388,7 +388,7 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
-              <div class="pic"><img src="{{ asset('img/team/team1.png') }}" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="/img/team/team1.png" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Devanis Dwi S.</h4>
                 <span>Chief Executive Officer</span>
@@ -404,7 +404,7 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="member">
-              <div class="pic"><img src="{{ asset('img/team/team2.png') }}" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="/img/team/team2.png" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Bella Dwi M.</h4>
                 <span>Product Manager</span>
@@ -420,7 +420,7 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
-              <div class="pic"><img src="{{ asset('img/team/team3.png') }}" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="/img/team/team3.png" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>M. Adzin Tsaqif</h4>
                 <span>CTO</span>
@@ -584,19 +584,19 @@
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
-  <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-  <script src="{{ asset('vendor/jquery.easing/jquery.easing.min.js') }}"></script>
-  <script src="{{ asset('vendor/php-email-form/validate.js') }}"></script>
-  <script src="{{ asset('vendor/waypoints/jquery.waypoints.min.js') }}"></script>
-  <script src="{{ asset('vendor/counterup/counterup.min.js') }}"></script>
-  <script src="{{ asset('vendor/venobox/venobox.min.js') }}"></script>
-  <script src="{{ asset('vendor/owl.carousel/owl.carousel.min.js') }}"></script>
-  <script src="{{ asset('vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
-  <script src="{{ asset('vendor/aos/aos.js') }}"></script>
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="/vendor/php-email-form/validate.js"></script>
+  <script src="/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="/vendor/counterup/counterup.min.js"></script>
+  <script src="/vendor/venobox/venobox.min.js"></script>
+  <script src="/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/vendor/aos/aos.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="{{ asset('js/main.js') }}"></script>
+  <script src="/js/main.js"></script>
 
 </body>
 
