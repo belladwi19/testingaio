@@ -52,7 +52,7 @@
           <a href="/admin/todo" class="nav-link">ToDo Board</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-          <a href="/admin/projects" class="nav-link">Projects</a>
+          <a href="/admin/services" class="nav-link">Services</a>
         </li>
       </ul>
 
@@ -210,21 +210,21 @@
               <a href="#" class="nav-link">
                 <i class="nav-icon fas fa-book"></i>
                 <p>
-                  Projects
+                  Services
                   <i class="fas fa-angle-left right"></i>
                 </p>
               </a>
               <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a href="/admin/projects" class="nav-link">
+                  <a href="{{route('services.index')}}" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
-                    <p>Projects</p>
+                    <p>Services</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="/admin/project_add" class="nav-link">
+                  <a href="{{route('services.create')}}" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
-                    <p>Project Add</p>
+                    <p>Services Add</p>
                   </a>
                 </li>
               </ul>

@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PortfolioController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\ServicesController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -26,11 +27,9 @@ Route::get('/admin/forgot', [AdminController::class, 'forgot']);
 Route::get('/admin/index', [AdminController::class, 'index']);
 Route::get('/admin/recoverpassword', [AdminController::class, 'recoverpassword']);
 Route::get('/admin/todo', [AdminController::class, 'todo']);
-Route::get('/admin/projects', [AdminController::class, 'projects']);
-Route::get('/admin/project_add', [AdminController::class, 'project_add']);
-Route::get('/admin/project_edit', [AdminController::class, 'project_edit']);
-Route::get('/admin/project_detail', [AdminController::class, 'project_detail']);
+Route::get('/admin/services', [AdminController::class, 'services']);
+Route::get('/admin/services_add', [AdminController::class, 'services_add']);
 
-
+Route::resource('services', ServicesController::class);
 
 

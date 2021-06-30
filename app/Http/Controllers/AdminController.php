@@ -30,19 +30,11 @@ class AdminController extends Controller
 		  return view('admin.todo');
     }
     
-    public function projects(){
-		  return view('admin.projects');
+    public function services(){
+		  return view('admin.services');
     }
     
-    public function project_add(){
-		  return view('admin.project_add');
+    public function services_add(){
+		  return view('admin.services_add');
     }
-    
-    public function project_edit(){
-		  return view('admin.project_edit');
-    }
-    
-    public function project_detail(){
-		  return view('admin.project_detail');
-	  }
 }

@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AIO | Project Add</title>
+  <title>AIO | Services Add</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet"
@@ -32,7 +32,7 @@
           <a href="/admin/todo" class="nav-link">ToDo Board</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-          <a href="/admin/projects" class="nav-link">Projects</a>
+          <a href="/admin/services" class="nav-link">Services</a>
         </li>
       </ul>
 
@@ -190,21 +190,21 @@
               <a href="#" class="nav-link">
                 <i class="nav-icon fas fa-book"></i>
                 <p>
-                  Projects
+                  Services
                   <i class="fas fa-angle-left right"></i>
                 </p>
               </a>
               <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a href="/admin/projects" class="nav-link">
+                  <a href="{{route('services.index')}}" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
-                    <p>Projects</p>
+                    <p>Services</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="/admin/project_add" class="nav-link">
+                  <a href="{{route('services.create')}}" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
-                    <p>Project Add</p>
+                    <p>Services Add</p>
                   </a>
                 </li>
               </ul>
@@ -223,12 +223,12 @@
         <div class="container-fluid">
           <div class="row mb-2">
             <div class="col-sm-6">
-              <h1>Project Add</h1>
+              <h1>Services Add</h1>
             </div>
             <div class="col-sm-6">
               <ol class="breadcrumb float-sm-right">
                 <li class="breadcrumb-item"><a href="/admin/index">Home</a></li>
-                <li class="breadcrumb-item active">Project Add</li>
+                <li class="breadcrumb-item active">Services Add</li>
               </ol>
             </div>
           </div>
@@ -241,7 +241,7 @@
           <div class="col-md-6">
             <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">General</h3>
+                <h3 class="card-title">Services Add</h3>
 
                 <div class="card-tools">
                   <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
@@ -249,60 +249,24 @@
                   </button>
                 </div>
               </div>
+              <form action="{{ route('services.store') }}" method="POST"> 
+                @CSRF 
               <div class="card-body">
                 <div class="form-group">
-                  <label for="inputName">Project Name</label>
-                  <input type="text" id="inputName" class="form-control">
+                  <label for="title">Services Title</label>
+                  <input type="text" name="title" class="form-control @error('title') is-invalid @enderror" >
+                  <small class="text-danger">@error('title') {{$message}} @enderror</small>
                 </div>
-                <div class="form-group">
-                  <label for="inputDescription">Project Description</label>
-                  <textarea id="inputDescription" class="form-control" rows="4"></textarea>
+                <div class="form-group"> 
+                  <label for="description">Description</label> 
+                  <input type="text" name="description" class="form-control @error('description') is-invalid @enderror"> 
+                  <small class="text-danger">@error('description') {{$message}} @enderror</small> 
                 </div>
-                <div class="form-group">
-                  <label for="inputStatus">Status</label>
-                  <select id="inputStatus" class="form-control custom-select">
-                    <option selected disabled>Select one</option>
-                    <option>On Hold</option>
-                    <option>Canceled</option>
-                    <option>Success</option>
-                  </select>
-                </div>
-                <div class="form-group">
-                  <label for="inputClientCompany">Client Company</label>
-                  <input type="text" id="inputClientCompany" class="form-control">
-                </div>
-                <div class="form-group">
-                  <label for="inputProjectLeader">Project Leader</label>
-                  <input type="text" id="inputProjectLeader" class="form-control">
-                </div>
-              </div>
-              <!-- /.card-body -->
-            </div>
-            <!-- /.card -->
-          </div>
-          <div class="col-md-6">
-            <div class="card card-secondary">
-              <div class="card-header">
-                <h3 class="card-title">Budget</h3>
-
-                <div class="card-tools">
-                  <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                    <i class="fas fa-minus"></i>
-                  </button>
-                </div>
-              </div>
-              <div class="card-body">
-                <div class="form-group">
-                  <label for="inputEstimatedBudget">Estimated budget</label>
-                  <input type="number" id="inputEstimatedBudget" class="form-control">
-                </div>
-                <div class="form-group">
-                  <label for="inputSpentBudget">Total amount spent</label>
-                  <input type="number" id="inputSpentBudget" class="form-control">
-                </div>
-                <div class="form-group">
-                  <label for="inputEstimatedDuration">Estimated project duration</label>
-                  <input type="number" id="inputEstimatedDuration" class="form-control">
+                <div class="form-group"> 
+                  <label for="image">Image</label> 
+                  <br>
+                  <input type="file" name="image" class="btn btn-primary input-lg"> 
+                  <small class="text-danger">@error('image') {{$message}} @enderror</small> 
                 </div>
               </div>
               <!-- /.card-body -->
@@ -312,10 +276,11 @@
         </div>
         <div class="row">
           <div class="col-12">
-            <a href="#" class="btn btn-secondary">Cancel</a>
-            <input type="submit" value="Create new Porject" class="btn btn-success float-right">
+            <a href="{{route('services.index')}}" class="btn btn-secondary">Cancel</a>
+            <input type="submit" value="Create New Services" class="btn btn-success float-right">
           </div>
         </div>
+        </form>
       </section>
       <!-- /.content -->
     </div>
