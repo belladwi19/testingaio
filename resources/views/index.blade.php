@@ -246,48 +246,16 @@
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-md-6">
+
+        <?php foreach ($services as $services) { ?>
+          <div class="col-md-6 mt-4 mt-md-0">
             <div class="icon-box">
               <i class="icofont-computer"></i>
-              <h4><a href="#">Digital Services</a></h4>
-              <p>AIO membantu memenuhi kebutuhan marketing anda dalam bentuk layanan pemasaran digital</p>
+              <h4><a href="#">{{ $services->title}}</a></h4>
+              <p>{{ $services->description}}</p>
             </div>
           </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="icofont-chart-bar-graph"></i>
-              <h4><a href="#">Branding Identity</a></h4>
-              <p>Membantu memenuhi kebutuhan marketing dalam bentuk konten menarik, desain produk</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="icofont-image"></i>
-              <h4><a href="#">Interesting Product</a></h4>
-              <p>Produk yang dipasarkan akan terlihat lebih menarik dengan adanya desain dan konten yang saling berkaitan</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="icofont-settings"></i>
-              <h4><a href="#">Support System</a></h4>
-              <p>AIO menyediakan layanan untuk penjembatan antara client dan target pemasarannya </p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="icofont-earth"></i>
-              <h4><a href="#">Global Target</a></h4>
-              <p>AIO membantu anda dalam mencapai titik target tepat pemasaran mendunia</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="icofont-tasks-alt"></i>
-              <h4><a href="#">Scheduled Content</a></h4>
-              <p>AIO membantu up to date konten yang dibutuhkan oleh target disesuaikan dengan kebutuhan dan kondisi yang ada</p>
-            </div>
-          </div>
+        <?php } ?>
         </div>
 
       </div>

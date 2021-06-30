@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PortfolioController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ServicesController;
+use App\Http\Controllers\HomeController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,9 +17,7 @@ use App\Http\Controllers\ServicesController;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', [HomeController::class, 'index']);
 
 Route::resource('portfolio', PortfolioController::class);
 
@@ -30,5 +30,4 @@ Route::get('/admin/services', [AdminController::class, 'services']);
 Route::get('/admin/services_add', [AdminController::class, 'services_add']);
 
 Route::resource('services', ServicesController::class);
-
 
