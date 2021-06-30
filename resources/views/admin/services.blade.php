@@ -26,7 +26,7 @@
         <a href="/admin/index" class="nav-link">Dashboard</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="/admin/Services" class="nav-link">Services</a>
+        <a href="{{route('services.index')}}" class="nav-link">Services</a>
       </li>
     </ul>
 
