@@ -26,10 +26,6 @@ class AdminController extends Controller
 		  return view('admin.forgot');
     }
     
-    public function todo(){
-		  return view('admin.todo');
-    }
-    
     public function services(){
 		  return view('admin.services');
     }

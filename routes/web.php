@@ -26,7 +26,6 @@ Route::get('/admin/register', [AdminController::class, 'register']);
 Route::get('/admin/forgot', [AdminController::class, 'forgot']);
 Route::get('/admin/index', [AdminController::class, 'index']);
 Route::get('/admin/recoverpassword', [AdminController::class, 'recoverpassword']);
-Route::get('/admin/todo', [AdminController::class, 'todo']);
 Route::get('/admin/services', [AdminController::class, 'services']);
 Route::get('/admin/services_add', [AdminController::class, 'services_add']);
 

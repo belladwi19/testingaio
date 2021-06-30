@@ -29,9 +29,6 @@
           <a href="/admin/index" class="nav-link">Dashboard</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-          <a href="/admin/todo" class="nav-link">ToDo Board</a>
-        </li>
-        <li class="nav-item d-none d-sm-inline-block">
           <a href="/admin/services" class="nav-link">Services</a>
         </li>
       </ul>
@@ -175,14 +172,6 @@
                 <i class="nav-icon fas fa-tachometer-alt"></i>
                 <p>
                   Dashboard
-                </p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="/admin/todo" class="nav-link">
-                <i class="nav-icon fas fa-columns"></i>
-                <p>
-                  ToDo Board
                 </p>
               </a>
             </li>
